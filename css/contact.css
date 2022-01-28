@@ -1,0 +1,154 @@
+/* this contains css related to the contact section of the portfolio */
+
+.contactContainer {
+    min-height: 70vh;
+    background-color: black;
+    position: relative;
+}
+
+.contact {
+    padding-top: 10vh;
+}
+
+#bg4 {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+.contact h1 {
+    font-size: 5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    color: white;
+    text-shadow: -.050em .050em #778899;
+    text-decoration: underline;
+    text-decoration-color: white;
+    text-underline-offset: auto;
+}
+
+.contact {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.formContainer {
+    margin-top: 3vh;
+    z-index: 999;
+    width: 50%;
+}
+
+.contactForm {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.contactForm input {
+    color: black;
+    width: 80%;
+    font-size: 1.5rem;
+}
+
+.contactForm textarea {
+    color: black;
+    font-size: 1.5rem;
+    z-index: 999;
+}
+
+.contactForm label {
+    margin-top: 2vh;
+    font-size: 2rem;
+}
+
+.contactForm button {
+    background-color: white;
+    color: lightslategray;
+    font-size: 1.5rem;
+    margin-top: 3vh;
+    height: 10%;
+    width: 20%;
+    cursor: pointer;
+}
+
+.contactForm button:hover {
+    background-color: black;
+    color: white;
+}
+
+.formContainer p {
+    opacity: 0;
+    margin-top: 2vh;
+    font-size: 2rem;
+    color: lightslategray;
+    transition: 2s all ease-in-out;
+    font-style: italic;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.goUp {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    bottom: 0;
+    z-index: 99900;
+    margin-bottom: 1vh;
+}
+
+.goUp:hover {
+    transform: translateY(+5%);
+    animation: 1s up infinite ease-in-out;
+    z-index: 999;
+}
+  
+@keyframes up {
+    to {
+      transform: translateY(-5%);
+    }
+}
+
+.upArrow {
+    border: 2px solid white;
+    border-radius: 50%;
+}
+
+.copyright {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 15vh;
+}

@@ -1,0 +1,153 @@
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap");
+
+* {
+  margin: 0 0;
+  padding: 0 0;
+  color: white;
+  box-sizing: border-box;
+  font-family: "Bebas Neue", cursive;
+}
+
+html {
+  scroll-behavior: smooth;
+  overflow: visible;
+  background-color: black;
+}
+
+#bg {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: 1;
+}
+
+.content {
+  background-color: black;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  overflow-y: scroll;
+  z-index: 999;
+}
+
+.intro {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  position: relative;
+  flex-direction: column;
+  justify-content: center;
+
+}
+
+.intro h2 {
+  font-size: 3rem;
+}
+
+.intro h1 {
+  font-size: 10rem;
+  color: transparent;
+  -webkit-text-stroke: 0.5px white;
+  background: url("../assets/back.png");
+  -webkit-background-clip: text;
+  background-position: 0 0;
+  animation: text 20s linear infinite;
+}
+
+@keyframes text {
+  100% {
+    background-position: 1000px;
+  }
+}
+
+.intro span {
+  font-size: 3rem;
+}
+
+.intro h2 {
+  font-size: 3rem;
+  color: lightslategray;
+}
+
+span {
+  color: lightslategray;
+}
+
+.links {
+  display: flex;
+  width: 100%;
+  justify-content: right;
+  align-items: center;
+  margin-top: 5vh;
+  position: absolute;
+  right: 0;
+  top: 0;
+  margin-top: 3vh;
+  margin-right: 3vh;
+  z-index: 999;
+}
+
+.links img {
+  height: 75px;
+  width: auto;
+  padding: 0px 1.5vw;
+  opacity: 0.6;
+}
+
+.links .github {
+  filter: invert(1);
+}
+
+.links .linkedin {
+  filter: invert(1);
+}
+
+.links img:hover {
+  opacity: 1;
+  box-shadow: 0px 0px 5px gray;
+}
+
+.introNextSection {
+  display: flex;
+  flex-direction: row;
+}
+
+.nextsection {
+  padding: 10px 20px;
+  font-size: 2em;
+  margin-top: 4vh;
+  opacity: 0.8;
+  border: 1px solid white;
+  border-radius: 2px;
+  transition: 1s ease-out;
+  box-shadow: 10px 10px 10px lightslategray;
+  cursor: pointer;  
+  z-index: 999;
+
+}
+
+.nextsection:hover {
+  box-shadow: 10px 10px 10px lightslategray;
+  border-radius: 36px;
+  text-decoration-color: white;
+  text-decoration: underline;
+}
+
+.arrowDown {
+  transform: translateY(-30%);
+  animation: 1s updown infinite ease-in-out;
+}
+
+@keyframes updown {
+  to {
+    transform: translateY(+30%);
+  }
+}
+
+.container {
+  min-height: 100vh;
+}
