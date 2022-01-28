@@ -1,50 +1,48 @@
-
 .navbar {
-    flex-direction: row;
-    padding: 0.5em 0.5em;
-    margin-left: 2vw;
+  flex-direction: row;
+  padding: 0.5em 0.5em;
+  margin-left: 2vw;
 }
 
 ul {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: left;
-    position: sticky;
-    top: 0;
-    -webkit-position: sticky;
-    position: sticky;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: left;
+  position: sticky;
+  top: 0;
+  -webkit-position: sticky;
+  position: sticky;
 }
 
 li {
-    color: white;
-    list-style: none;
-    font-size: 2rem;
-} 
+  color: white;
+  list-style: none;
+  font-size: 2rem;
+}
 
 a {
-    text-decoration: none;
+  text-decoration: none;
 }
 
 .nav-cont {
-    background-color: rgba(119, 136, 153);
-    opacity: 0.9;
-    position: sticky;
-    position: -webkit-sticky;
-    top: 0;
-    width: 100%;
-    z-index: 999999;
-    box-shadow: 0px 3px 10px white;
-    position: -webkit-sticky;
-    position: sticky;
+  background-color: rgba(119, 136, 153);
+  opacity: 0.9;
+  position: sticky;
+  position: -webkit-sticky;
+  top: 0;
+  width: 100%;
+  z-index: 999999;
+  box-shadow: 0px 3px 10px white;
+  position: -webkit-sticky;
+  position: sticky;
 }
 
 li:hover {
-    text-decoration-line:overline;
+  text-decoration-line: overline;
 }
 
 li:active {
-    font-weight: bolder;
-    font-style: oblique;
+  font-weight: bolder;
+  font-style: oblique;
 }
-

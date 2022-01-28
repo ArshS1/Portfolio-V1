@@ -41,7 +41,6 @@ html {
   position: relative;
   flex-direction: column;
   justify-content: center;
-
 }
 
 .intro h2 {
@@ -125,9 +124,8 @@ span {
   border-radius: 2px;
   transition: 1s ease-out;
   box-shadow: 10px 10px 10px lightslategray;
-  cursor: pointer;  
+  cursor: pointer;
   z-index: 999;
-
 }
 
 .nextsection:hover {
