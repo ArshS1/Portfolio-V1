@@ -1,3 +1,7 @@
+// scrolling 
+navAbout.scrollTo("#about")
+
+
 // animation effect for hovering over project
 
 // project 1 animation

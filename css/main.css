@@ -6,10 +6,11 @@
   color: white;
   box-sizing: border-box;
   font-family: "Bebas Neue", cursive;
+  scroll-behavior: smooth;
 }
 
 html {
-  scroll-behavior: smooth;
+  overflow: scroll;
   background-color: black;
 }
 
