@@ -1,4 +1,36 @@
 // animation effect for hovering over project
+$('nav a').on('click', function(e) {
+  if (this.hash != '') {
+    e.preventDefault();
+    const hash = this.hash;
+    $('html, body').animate ({
+      scrollTop: $(hash).offset().top
+    }, 900
+    )
+  }
+})
+
+$('.introNextSection a').on('click', function(e) {
+  if (this.hash != '') {
+    e.preventDefault();
+    const hash = this.hash;
+    $('html, body').animate ({
+      scrollTop: $(hash).offset().top
+    }, 900
+    )
+  }
+})
+
+$('.copyright a').on('click', function(e) {
+  if (this.hash != '') {
+    e.preventDefault();
+    const hash = this.hash;
+    $('html, body').animate ({
+      scrollTop: $(hash).offset().top
+    }, 1000
+    )
+  }
+})
 
 // project 1 animation
 document
