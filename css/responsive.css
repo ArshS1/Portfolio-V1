@@ -6,11 +6,9 @@
   * {
     margin: 0 0;
     padding: 0 0;
-    scroll-behavior: smooth;
   }
 
   html {
-    overflow: scroll;
     background-color: black;
   }
 
