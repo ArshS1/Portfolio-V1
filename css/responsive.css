@@ -6,6 +6,7 @@
   * {
     margin: 0 0;
     padding: 0 0;
+    
   }
 
   .intro {
@@ -41,16 +42,6 @@
   }
 
   /* navbar */
-  .nav-cont {
-    overflow-x: visible;
-  }
-  nav {
-    overflow-x: scroll;
-  }
-  ul {
-    overflow-x: scroll;
-  }
-
   .navbar {
     font-size: 1.5rem;
   }
@@ -198,15 +189,6 @@
   }
 
   /* navbar */
-  .nav-cont {
-    overflow-x: visible;
-  }
-  nav {
-    overflow-x: scroll;
-  }
-  ul {
-    overflow-x: scroll;
-  }
 
   .navbar {
     font-size: 1.7rem;
